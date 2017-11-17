@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+<link href="/stylesheets/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<h1>Triwizard Tournament</h1>
+<div id="header">
+<h3>Please place your name in the cup for a chance to be selected as the Hogwarts Champion!</h3>
+</div>
+<form id="commentForm" action="">
+<label for="name">Name: </label><input type="text" id="name" placeholder="Name"><br><br>
+<label for="comment">House: </label><input type="text" id="comment" placeholder="House"><br>
+</form>
+
+<div id="buttons">
+<button id="postComment">Enter</button>
+<button id="getComments">See All Participants</button>
+<button id="getRandom">Choose a Champion</button>
+<button id="deleteComments">Remove All Entries</button>
+</div>
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments"></div>
+<div id="goblet">
+        <img id="flame" src="fire.gif">
+        <img id="cup" src="cup.png" width="300px" height="400px" >
+    </div>
+</body>
+</html>

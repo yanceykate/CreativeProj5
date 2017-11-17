@@ -1,0 +1,64 @@
+body{
+    background-color:black;
+    color:white;
+}
+#commentForm{
+    margin-left: 10%;
+    padding:5%;
+     background-image:url("paper.jpg");
+    width:30%;
+    background-size:cover;
+    color:black;
+}
+button{
+    background-color:azure;
+     width:10%;
+    height:7%;
+    font-family:"Trajan Pro","Consolas","Myriad Pro";
+    margin-left:1%;
+    margin-right:1%;
+}
+#flame{
+    margin-right:5%;
+    position:absolute;
+    left:60%;
+    bottom:40%;
+    height:60%;
+    width:30%;
+-webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(180deg);
+
+}
+#cup{
+    position:absolute;
+    left:60%;
+    top:51%;
+    height:70%;
+    width:29%;
+}
+h1{
+    font-family:"Algerian","Castellar","Bell MT",fantasy;
+    text-align:center;
+    font-size:48px;
+    position:absolute;
+    z-index:3;
+    left:30%;
+    top:1%;
+}
+h3{
+    font-family:"Trajan Pro","Consolas","Myriad Pro";
+}
+#header{
+    margin-top:125px;
+    width:40%;
+    margin-left:10%;
+}
+#buttons{
+    margin: 5%;
+    margin-left:10%;
+}
+#comments{
+font-family:"Trajan Pro","Consolas","Myriad Pro";
+width:40%;
+margin-left:10%;
+}
